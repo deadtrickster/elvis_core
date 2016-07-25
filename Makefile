@@ -6,7 +6,7 @@ SHELL_DEPS = sync
 BUILD_DEPS = inaka_mk hexer_mk
 DEP_PLUGINS = inaka_mk hexer_mk
 
-dep_lager       = git https://github.com/basho/lager.git         3.1.0
+dep_lager       = hex 3.2.1
 dep_zipper      = hex 0.2.0
 dep_katana_code = git https://github.com/inaka/katana-code.git   0.0.3
 dep_katana_test = git https://github.com/inaka/katana-test.git   0.0.5
